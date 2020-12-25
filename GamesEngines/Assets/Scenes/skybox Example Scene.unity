@@ -350,6 +350,7 @@ GameObject:
   m_Component:
   - component: {fileID: 56}
   - component: {fileID: 105}
+  - component: {fileID: 30}
   m_Layer: 0
   m_Name: Moon
   m_TagString: Untagged
@@ -357,6 +358,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &30
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 29}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d979989e3fad5c4ba11f4b319b0d22e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &31
 GameObject:
   m_ObjectHideFlags: 0
@@ -1239,7 +1252,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 60
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 0.8
